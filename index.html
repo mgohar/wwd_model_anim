@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link src="./src/style.css" />
+  <style>
+    body {
+      margin: 0px;
+    }
+
+    canvas {
+      position: absolute;
+    }
+
+    .behindText {
+      font-size: 200px;
+      text-align: center;
+      font-family: 'circular';
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="display: flex;align-items: center;justify-content: center;height:100vh">
+    <canvas class="webgl"></canvas>
+    <h1 class="behindText">Get Started</h1>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.152.2/three.js"
+    integrity="sha512-tjjS08TZc3NgLERgbpuPrF5p295wFuvNwa3TJdssyUrllR2ZURdSqpDFOS9BxGc5TLpgLob5SGHhIzWXpT+5aA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="./src/ImportModel.ts"></script>
+
+</body>
+
+</html>
