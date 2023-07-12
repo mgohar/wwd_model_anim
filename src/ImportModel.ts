@@ -72,7 +72,7 @@ const Size = {
 const camera = new THREE.PerspectiveCamera(1, Size.width / Size.height);
 camera.position.z = 100;
 scene.add(camera);
-const canvas: any = document.querySelector(".webgl");
+const canvas: any = document.querySelector(".webgl_wwd_model_anim");
 
 // Controls
 // const controls = new OrbitControls(camera, canvas);
